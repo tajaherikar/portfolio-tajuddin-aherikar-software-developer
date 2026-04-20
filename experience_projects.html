@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tajuddin Aherikar | Kinetic Architect</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&amp;family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-surface": "#e5e1e4",
+                        "on-secondary-container": "#006a5a",
+                        "surface-dim": "#131315",
+                        "surface-variant": "#353437",
+                        "inverse-primary": "#4d4ad5",
+                        "on-primary-fixed": "#0c006b",
+                        "inverse-surface": "#e5e1e4",
+                        "secondary-fixed": "#26fedc",
+                        "inverse-on-surface": "#313032",
+                        "primary": "#c2c1ff",
+                        "surface-container-low": "#1b1b1d",
+                        "surface-bright": "#39393b",
+                        "surface-container-highest": "#353437",
+                        "on-secondary-fixed-variant": "#005144",
+                        "error-container": "#93000a",
+                        "on-background": "#e5e1e4",
+                        "on-primary": "#1800a7",
+                        "outline": "#918fa0",
+                        "primary-fixed": "#e2dfff",
+                        "tertiary-container": "#617083",
+                        "on-tertiary-fixed": "#0d1c2d",
+                        "on-surface-variant": "#c7c4d7",
+                        "error": "#ffb4ab",
+                        "surface-container-lowest": "#0e0e10",
+                        "surface-container-high": "#2a2a2c",
+                        "surface-container": "#201f21",
+                        "on-secondary-fixed": "#00201a",
+                        "tertiary-fixed": "#d4e4fa",
+                        "surface": "#131315",
+                        "tertiary-fixed-dim": "#b9c8de",
+                        "outline-variant": "#464554",
+                        "on-primary-fixed-variant": "#332dbc",
+                        "secondary-container": "#00f2d1",
+                        "on-error": "#690005",
+                        "tertiary": "#b9c8de",
+                        "on-tertiary-container": "#edf3ff",
+                        "on-error-container": "#ffdad6",
+                        "on-secondary": "#00382f",
+                        "secondary": "#c7fff0",
+                        "on-primary-container": "#f4f1ff",
+                        "background": "#131315",
+                        "surface-tint": "#c2c1ff",
+                        "secondary-fixed-dim": "#00dfc1",
+                        "on-tertiary-fixed-variant": "#39485a",
+                        "primary-fixed-dim": "#c2c1ff",
+                        "primary-container": "#5e5ce6",
+                        "on-tertiary": "#233143"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Manrope"],
+                        "label": ["Manrope"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .glass-nav {
+            background: rgba(19, 19, 21, 0.6);
+            backdrop-filter: blur(12px);
+        }
+        .ghost-border {
+            outline: 1px solid rgba(145, 143, 160, 0.2);
+        }
+        .kinetic-gradient {
+            background: linear-gradient(135deg, #c2c1ff 0%, #5e5ce6 100%);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary/30">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-zinc-950/60 backdrop-blur-xl border-b border-zinc-800/20 shadow-2xl shadow-black/50">
+<div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+<div class="text-xl font-black tracking-tighter text-zinc-100 font-headline">ARCHITECT.DEV</div>
+<div class="hidden md:flex items-center gap-8 font-headline font-medium tracking-tight">
+<a class="text-indigo-400 border-b border-indigo-400 pb-1 transition-all duration-300" href="#">Work</a>
+<a class="text-zinc-400 hover:text-zinc-100 transition-all duration-300" href="#">Expertise</a>
+<a class="text-zinc-400 hover:text-zinc-100 transition-all duration-300" href="#">Journal</a>
+<a class="text-zinc-400 hover:text-zinc-100 transition-all duration-300" href="#">Contact</a>
+</div>
+<button class="kinetic-gradient text-on-primary px-6 py-2 rounded-lg font-headline font-bold scale-95 active:opacity-80 transition-transform">
+                Hire Me
+            </button>
+</div>
+</nav>
+<main class="pt-32 pb-24">
+<!-- Hero Branding -->
+<section class="max-w-7xl mx-auto px-6 mb-32">
+<div class="flex flex-col md:flex-row items-end gap-4 mb-8">
+<h1 class="text-6xl md:text-8xl font-black font-headline tracking-tighter leading-none text-on-surface uppercase">
+                    Tajuddin<br/>Aherikar
+                </h1>
+<div class="pb-2">
+<span class="text-secondary font-headline font-bold tracking-widest uppercase text-sm block mb-1">Portfolio 2024</span>
+<div class="h-1 w-24 kinetic-gradient"></div>
+</div>
+</div>
+<p class="max-w-2xl text-on-surface-variant text-lg leading-relaxed font-light">
+                Engineering sophisticated digital architectures with a focus on enterprise stability and creative fluidity. Specializing in high-performance web applications and interactive systems.
+            </p>
+</section>
+<!-- Experience Timeline -->
+<section class="max-w-7xl mx-auto px-6 mb-40">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-12">
+<div class="md:col-span-4">
+<h2 class="text-4xl font-headline font-bold tracking-tight text-on-surface mb-4">Professional<br/>Trajectory</h2>
+<p class="text-on-surface-variant font-light">A decade of building at the intersection of pedagogy and technology.</p>
+</div>
+<div class="md:col-span-8 space-y-16 relative">
+<!-- Vertical Line Trace -->
+<div class="absolute left-0 top-0 bottom-0 w-px bg-outline-variant/30 ml-4 md:ml-0"></div>
+<!-- Experience Item 1 -->
+<div class="relative pl-12 md:pl-16 group">
+<div class="absolute left-0 top-1.5 w-8 h-8 -ml-4 md:-ml-4 rounded-full bg-surface-container-high border-2 border-primary flex items-center justify-center transition-all duration-500 group-hover:scale-110 group-hover:shadow-[0_0_15px_rgba(194,193,255,0.4)]">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+</div>
+<div class="mb-2">
+<span class="font-headline font-bold text-primary tracking-widest text-sm uppercase">2018 — Present</span>
+<h3 class="text-3xl font-headline font-black text-on-surface mt-1">Impelsys</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+<div class="bg-surface-container-low p-6 rounded-xl ghost-border transition-colors duration-300 hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-secondary mb-3" style="font-variation-settings: 'FILL' 1;">architecture</span>
+<h4 class="font-headline font-bold text-on-surface mb-2">Enterprise Authoring Platform</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Lead architecture for a multi-tenant content creation suite serving global publishers.</p>
+</div>
+<div class="bg-surface-container-low p-6 rounded-xl ghost-border transition-colors duration-300 hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-secondary mb-3" style="font-variation-settings: 'FILL' 1;">settings_voice</span>
+<h4 class="font-headline font-bold text-on-surface mb-2">Voice Generation UI</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Developing real-time speech-to-text and synthetic voice interfaces for accessibility.</p>
+</div>
+</div>
+</div>
+<!-- Experience Item 2 -->
+<div class="relative pl-12 md:pl-16 group">
+<div class="absolute left-0 top-1.5 w-8 h-8 -ml-4 md:-ml-4 rounded-full bg-surface-container-high border-2 border-outline-variant flex items-center justify-center">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+</div>
+<div class="mb-2">
+<span class="font-headline font-bold text-on-surface-variant tracking-widest text-sm uppercase">2016 — 2018</span>
+<h3 class="text-3xl font-headline font-black text-on-surface mt-1">Trigent Software</h3>
+</div>
+<div class="mt-6">
+<div class="bg-surface-container-low p-6 rounded-xl ghost-border max-w-lg transition-colors duration-300 hover:bg-surface-container-high">
+<span class="material-symbols-outlined text-secondary mb-3" style="font-variation-settings: 'FILL' 1;">swap_horiz</span>
+<h4 class="font-headline font-bold text-on-surface mb-2">Flash to HTML5 Migration</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Engineered legacy-to-modern pipelines for large-scale e-learning repositories using custom JS frameworks.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Grid -->
+<section class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-16">
+<div>
+<h2 class="text-4xl font-headline font-bold tracking-tight text-on-surface">Selected Works</h2>
+<p class="text-on-surface-variant mt-2">Precision engineered solutions across diverse domains.</p>
+</div>
+<div class="hidden md:block">
+<span class="text-xs font-label uppercase tracking-[0.3em] text-outline">Scroll to explore</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Project 1: E-learning -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container-low ghost-border aspect-[4/3] md:aspect-auto md:h-[600px]">
+<img alt="Education Technology" class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Modern minimalist study space with digital devices and ambient blue light reflecting off a dark glass desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmu0IWwHo2IWXAmDCU9qBlqu74bWHKwBiUsgXL8M-aO5LYCINlBCdOVB91ejSNI9yCwRmAX4Ro2M3yidBv9pXD82aTAzS2HYAiLd9aAOughtvjlG9BmjJ78pKyvfc05ZdaRNkoI2rsi2jFjqG2Ob5_g_xSKGSytjNdQHOdN5QBEdoYWVgLIg6jHd5mPMtPN-qVW1XEWimDfjYbi-vhfAsAXhmw8uXJW1yZv1OmUgqYLUQZmPdCYXcaZmLYA3cYOL-u8wqGNT2fp1JO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 bg-secondary-container/10 text-secondary-fixed text-xs font-bold uppercase tracking-widest rounded-full border border-secondary-container/20">E-learning</span>
+</div>
+<h3 class="text-4xl font-headline font-black text-on-surface mb-4 leading-tight">Interactive Pedagogy<br/>Framework</h3>
+<div class="flex items-center gap-2 text-primary font-headline font-bold group/btn cursor-pointer">
+<span>VIEW CASE STUDY</span>
+<span class="material-symbols-outlined transform group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Project 2: Medical Simulation -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container-low ghost-border aspect-[4/3] md:aspect-auto md:h-[600px] md:translate-y-20">
+<img alt="Medical Simulation" class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Highly detailed 3D digital medical anatomy visualization on a dark technical interface with pulsing data points" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsl3T7gSiR2FLxYnrQSMYodHxONOxCY5QhPkTqn2jgCJW1-qgFHFeXCtHH48_gOWgpCDNrfZF3RW02rEg7r_fQOBu-AaSAIcZsdqdp_sLNcLBX8wYhmB8P_c32uIyVJcjSiy6Z45Y7sWZutIeesPgKqiX7fc1KDDngTKIUHAk4YeWl48GI44d5Bkv_a0_K_mdGa9RIPQuwoSvrMn0Y9NjpRwYblxScNZQFF6VIa0Dry2GT-AMe4Yi4i4XUVBpQSUj9wCx5oM_lK6-U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 bg-secondary-container/10 text-secondary-fixed text-xs font-bold uppercase tracking-widest rounded-full border border-secondary-container/20">Medical Simulation</span>
+</div>
+<h3 class="text-4xl font-headline font-black text-on-surface mb-4 leading-tight">Virtual Surgical<br/>Interface</h3>
+<div class="flex items-center gap-2 text-primary font-headline font-bold group/btn cursor-pointer">
+<span>VIEW CASE STUDY</span>
+<span class="material-symbols-outlined transform group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Project 3: Real-estate -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container-low ghost-border aspect-[4/3] md:aspect-auto md:h-[600px]">
+<img alt="Real Estate" class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Extreme low angle of a modern glass skyscraper reflecting a deep blue twilight sky with sharp geometric edges" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbZQQwyW9uiYwoQ2T4OOfy4E7XK3zth9aacr62AVEuuwv7BQ1sVFrx9kFKnUrK82dXHzKprizQxKJ6NLMVNFMK_o0G6EkvXsF6I5g2nsg_PJsJr7W261wfyyd-YGe_sr_3hg3wbUiNlpYiX4J4T9Y6n6jrg_4e_OLrtQlRtGZN7WJ_ZDg9DjPyG3Ud-MonxTyGWu52G51_hhnpVrCK9I1Yb6TrV-omi2hzIfCtt07Obdt6KTWIMASWovXd2dUBx22Kwg6yYXuW0p78"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 bg-secondary-container/10 text-secondary-fixed text-xs font-bold uppercase tracking-widest rounded-full border border-secondary-container/20">Real-estate</span>
+</div>
+<h3 class="text-4xl font-headline font-black text-on-surface mb-4 leading-tight">Kinetic Property<br/>Visualizer</h3>
+<div class="flex items-center gap-2 text-primary font-headline font-bold group/btn cursor-pointer">
+<span>VIEW CASE STUDY</span>
+<span class="material-symbols-outlined transform group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Project 4: E-commerce -->
+<div class="group relative overflow-hidden rounded-xl bg-surface-container-low ghost-border aspect-[4/3] md:aspect-auto md:h-[600px] md:translate-y-20">
+<img alt="E-commerce" class="absolute inset-0 w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700" data-alt="Futuristic digital payment interface with neon particles and abstract high-speed data streams in deep violet and cyan" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQT4cyZc7bQjHsxySiz-T5UEvaZIxc8IOYK_3P3i8fEXeiWA8NaMOrkc_PX27oCmPhd1bG8lmW8CFaeCrgynjKmqJhJSnHjSiI7ykTiJb7YA3LdJsOgOI_-Fd8hHTLaLZVrci8cuGkjlnSYmoBscMuWN_A9bGeK8zy49N_mzvIbfzDlPAeUq-UMg4uzKQOWP9c7z6VcOskn-f_YAw094cnwPHg6WyxDAMuNrcUKFRtFZWHV5T45V93dKDYDfZLtbR13gZEldMhEl8R"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-surface/40 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-10 w-full">
+<div class="flex items-center gap-3 mb-4">
+<span class="px-3 py-1 bg-secondary-container/10 text-secondary-fixed text-xs font-bold uppercase tracking-widest rounded-full border border-secondary-container/20">E-commerce</span>
+</div>
+<h3 class="text-4xl font-headline font-black text-on-surface mb-4 leading-tight">Neural Commerce<br/>Engine</h3>
+<div class="flex items-center gap-2 text-primary font-headline font-bold group/btn cursor-pointer">
+<span>VIEW CASE STUDY</span>
+<span class="material-symbols-outlined transform group-hover/btn:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-zinc-900 bg-zinc-950 mt-40">
+<div class="max-w-7xl mx-auto px-8 py-16 flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="text-sm font-bold text-zinc-500 font-headline uppercase tracking-widest">© 2024 Kinetic Architect. Built with precision.</div>
+<div class="flex items-center gap-8">
+<a class="text-zinc-500 hover:text-zinc-100 transition-colors duration-200 font-['Manrope'] text-xs uppercase tracking-widest" href="#">LinkedIn</a>
+<a class="text-zinc-500 hover:text-zinc-100 transition-colors duration-200 font-['Manrope'] text-xs uppercase tracking-widest" href="#">GitHub</a>
+<a class="text-zinc-500 hover:text-zinc-100 transition-colors duration-200 font-['Manrope'] text-xs uppercase tracking-widest" href="#">Read.cv</a>
+<a class="text-zinc-500 hover:text-zinc-100 transition-colors duration-200 font-['Manrope'] text-xs uppercase tracking-widest" href="#">Twitter</a>
+</div>
+<div class="flex items-center gap-2 group cursor-pointer opacity-70 hover:opacity-100 transition-opacity">
+<div class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></div>
+<span class="text-xs font-label text-zinc-400 uppercase tracking-widest">Available for hire</span>
+</div>
+</div>
+</footer>
+</body></html>

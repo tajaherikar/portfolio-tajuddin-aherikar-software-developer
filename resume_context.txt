@@ -1,0 +1,45 @@
+MD TAJUDDIN AHERIKAR
+tajuddin.aherikar@gmail.com | +91-903-6040-358 | Bengaluru India
+Summary
+Highly skilled Senior Front End Developer with a background in designing and implementing user interfaces, performance enhancements, and bug fixes. Possess strong skills in HTML, CSS, JavaScript, ReactJS and AngularJS to build interactive web applications. Known for deep understanding of UI/UX principles and ability to seamlessly collaborate with team members on complex projects. Committed to creating smooth web experiences that meet end-user needs.
+
+Skills
+- React and Next.js
+- JavaScript and TypeScript
+- HTML5 and CSS3
+- SCSS and modular UI
+- Context API and Redux
+- Zustand for state management
+- Node.js and MongoDB
+- SQL database management
+- Responsive design principles
+- Accessibility standards compliance
+- Reusable components development
+- Design system implementation
+- Component development
+- CRM optimization
+- Component-driven development
+- Frontend architecture design
+- Progressive web applications
+- AI technologies
+- Authoring platforms expertise
+- AI/voice technologies
+- Experience in working with Agentic AI
+
+Experience
+01/2018 - Current: Impelsys Pvt Ltd (Senior Frontend Engineer)
+- Developed React-based UI modules for enterprise authoring platform (1000+ users).
+- Built React + TypeScript UI for voice generation workflows.
+- Built reusable components reducing dev effort by ~30%.
+- Improved performance by ~25–40%.
+- Implemented CRM-style workflows.
+- Worked with Node.js and MongoDB.
+- Led daily stand-ups and sprint planning.
+- Analytics dashboard for real-time insights.
+
+01/2016 - 01/2018: Trigent Software (Software Engineer)
+- Healthcare simulation platform: Migrated Flash-based modules to HTML5 using Haxe and CreateJS.
+- Accessibility features supporting NVDA and JAWS.
+- Developed UI features with JavaScript, HTML, CSS.
+- Integrated REST APIs and resolved production issues.
+- Collaborated within Agile teams.
